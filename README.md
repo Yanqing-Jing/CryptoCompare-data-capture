@@ -3,6 +3,7 @@
 
 Get Crypto market history data with hour frequency through cryptocompare.com API
 
+
 ## 使用指南 Guide
 
 共包含两个 jupyter notebook 文件以及一个所有交易所列表的样例数据：
@@ -42,7 +43,9 @@ You can select pair(s) of exchange(s) data you whish to get from all exchanges l
 ### 3. all_ex.csv：
 
 这个数据集是通过 'get_crypto_exchanges' 获取到的一个样例数据，包含了cryptocompare中提供的所有可用交易所下的所有交易对。
+
 This dataset is from the result of 'get_crypto_exchanges', and contains all available pairs in all exchanges which are provided by cryptocompare.
+
 
 ## APIKey
 
@@ -53,6 +56,7 @@ You can get a free APIkey after register cryptocompare.com
 注意：中国大陆用户需要科学上网才可访问 cryptocompare.com
 
 If you are not live in the Mainland China, there's no necessary to understand the above sentence :)
+
 
 ## 其他 Other info
 
