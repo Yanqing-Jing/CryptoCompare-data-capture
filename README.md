@@ -1,3 +1,5 @@
+[toc]
+
 # CryptoCompare-data-capture
 通过 cryptocompare.com 提供的API获取以小时为频率的数字货币历史交易数据
 
