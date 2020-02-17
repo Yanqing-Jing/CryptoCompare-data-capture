@@ -27,6 +27,16 @@ Get multiple or specific history trading pairs of exchange(s).
 
 Run last two code cell to get the historical transaction records of a single trading pair or multiple trading pairs.
 
+如果需要获取多个交易对的历史交易记录，请先运行 get_crypto_exchanges 以获得全部交易所列表，因为这是一个必须的参数。
+
+If you want to get multiple historical transactions from many exchanges, please run 'get_crypto_exchanges' first to get all exchanges list wchich is a nessary parameter.
+
+随后可以从获得的全部交易所列表中选择你想要的交易对，或者是全部的交易数据。
+（警告：全部交易数据大致包含19930个交易对，总体大小约为60GB，全部获取预计需要80小时）
+
+You can select pair(s) of exchange(s) data you whish to get from all exchanges list, or directly use the list to get all pairs
+（Warning：All transactions pairs amount is about 19930, total size is about 60GB and estimate 60 hour to caupture）
+
 ## APIKey
 
 APIkey可以通过注册 cryptocompare.com 免费得到
