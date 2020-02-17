@@ -26,7 +26,7 @@ By running the last code cell, it would output a .csv file which records all exc
 
 Get multiple or specific history trading pairs of exchange(s).
 
-运行最后两个代码块可分别获得单一交易对以及多个交易对的历史交易记录，将以 .csv 格式输出。
+运行最后两个代码块可分别获得单一交易对以及多个交易对的历史交易记录。
 
 Run last two code cell to get the historical transaction records of a single trading pair or multiple trading pairs.
 
