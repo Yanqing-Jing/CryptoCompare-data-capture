@@ -1,6 +1,6 @@
 # CryptoCompare-data-capture
-
-Get Crypto market history data  in hour through cryptocompare.com
+通过 cryptocompare.com 提供的API获取以小时为频率的数字货币历史交易数据
+Get Crypto market history data with hour frequency through cryptocompare.com API
 
 ## 使用指南 Guide
 
