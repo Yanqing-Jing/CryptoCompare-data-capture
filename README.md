@@ -6,7 +6,8 @@ Get Crypto market history data with hour frequency through cryptocompare.com API
 ## 使用指南 Guide
 
 共包含两个 jupyter notebook 文件：
-Contains two jupyter notebook file:
+
+There are two jupyter notebook files:
 
 ### 1. get_crypto_exchanges: 
 
