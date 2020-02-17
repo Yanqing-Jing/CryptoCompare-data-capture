@@ -35,6 +35,8 @@ You can get a free APIkey after register cryptocompare.com
 
 注意：中国大陆用户需要科学上网才可访问 cryptocompare.com
 
+## 其他 Other info
+
 If you are not live in the Mainland China, there's no necessary to understand the above sentence :)
 
 由于代码仍然处于测试调试阶段，并未对所有函数进行完整的封装，最终的运行主函数（尚未封装）均写在最后，可直接通过 Jupyter notebook 运行。
