@@ -44,7 +44,7 @@ You can select pair(s) of exchange(s) data you whish to get from all exchanges l
 
 这个数据集是通过 'get_crypto_exchanges' 获取到的一个样例数据，包含了cryptocompare中提供的所有可用交易所下的所有交易对。
 
-This dataset is from the result of 'get_crypto_exchanges', and contains all available pairs in all exchanges which are provided by cryptocompare.
+This dataset is from the result of 'get_crypto_exchanges', and contains all available pairs in all exchanges provided by cryptocompare.
 
 
 ## APIKey
