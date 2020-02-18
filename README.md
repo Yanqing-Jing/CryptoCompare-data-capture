@@ -69,3 +69,6 @@ Not all functions are completely encapsulated, because the code is still in the 
 The required parameters are provided with examples and explanations in the code. If you have any questions, please contact me by email.
 
 Email: jingyq233@gmail.com
+
+Reference：
+https://min-api.cryptocompare.com/documentation
