@@ -16,7 +16,7 @@ There are two jupyter notebook files and a sample dataset which contains all exc
 
 Get all available exchanges list recorded in cryptocompare.com, which support you to get all history data of trading pairs automatically.
 
-运行最后一段代码单元，即输出一份 .csv 文件，其中将会记录所有的**交易所**。
+运行最后一段代码单元，即输出一份 .csv 文件，其中将会包含所有的**交易所**。
 
 By running the last code cell, it would output a .csv file which records all exchanges.
 
