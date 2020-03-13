@@ -3,6 +3,24 @@
 
 Get Crypto market history data with hour frequency through cryptocompare.com API
 
+## 2020.03.13 更新
+提交 cryptoCompare_data_capture_v3.0 版本，对过去版本进行了优化以及功能升级
+1. 对服务器端限制进行了优化升级，提升了批量数据的获取效率
+2. 新增了数据获取时间预估以及时间统计，增加使用体验
+3. 优化了同一交易对数据多次获取的数据拼接时的bug
+4. 新增了历史数据保存功能，会自动将上次产生的数据进行归档保存，并存储每次获取数据的执行时间戳
+5. 优化了终端显示信息，增加使用体验
+6. 新增了一个交易对列表，缩减了大部分小众交易对，仅保留了热门交易对和交易所（强烈推荐使用此交易列表作为数据抓取参考）
+
+Commit version cryptoCompare_data_capture_v3.0, improved function and effectiveness
+1. Fixed the data accessing limitation from cryptoCompare, improved effectiveness of bulk data capturing
+2. Added time consuming and time statistic of capturing improved user experience
+3. Fixed the error when appending multiple data file
+4. Added history file storage function, and automatically store last time data capture file as well as the timestamp
+5. Improved terminal info display and user experience
+6. Added a new exchange and pair address book, reduced minority pairs and remained popular pairs(Highly recommend to use this address book as the data capturing reference)
+
+
 
 ## 使用指南 Guide
 
