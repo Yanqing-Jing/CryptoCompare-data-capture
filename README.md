@@ -24,9 +24,9 @@ Commit version cryptoCompare_data_capture_v3.0, improved function and effectiven
 
 ## 使用指南 Guide
 
-共包含两个 jupyter notebook 文件以及一个所有交易所列表的样例数据：
+共包含两个主要的 jupyter notebook 文件以及2个所有交易所列表的样例数据：
 
-There are two jupyter notebook files and a sample dataset which contains all exchanges list:
+There are two mainly jupyter notebook files and 2 sample datasets which contains all exchanges list:
 
 ### 1. get_crypto_exchanges: 
 
@@ -38,7 +38,7 @@ Get all available exchanges list recorded in cryptocompare.com, which support yo
 
 By running the last code cell, it would output a .csv file which records all exchanges.
 
-### 2. cryptoCompare_data_capture_v2.0：
+### 2. cryptoCompare_data_capture_v2.0/v3.0：
 
 用于获取单个或者多个交易所下的交易对历史数据
 
@@ -48,22 +48,23 @@ Get multiple or specific history trading pairs of exchange(s).
 
 Run last two code cell to get the historical transaction records of a single trading pair or multiple trading pairs.
 
-如果需要获取多个交易对的历史交易记录，请先运行 get_crypto_exchanges 以获得全部交易所列表，因为这是一个必须的参数。
+如果需要获取多个交易对的历史交易记录，请使用提供的样例交易对数据（all_ex.csv 或者 ex_filter.csv），或运行 get_crypto_exchanges 以获得全部交易所列表。这是一个必须的参数。
 
-If you want to get multiple historical transactions from many exchanges, please run 'get_crypto_exchanges' first to get all exchanges list wchich is a nessary parameter.
+If you want to get multiple historical transactions from many exchanges, please use sample exchanges and pairs address book(all_ex.csv or ex_filter.csv) , or run 'get_crypto_exchanges' first to get all exchanges list. It is a nessary parameter.
 
-随后可以从获得的全部交易所列表中选择你想要的交易对，或者是全部的交易数据。
-（警告：全部交易数据大致包含19930个交易对，总体大小约为60GB，全部获取预计需要80小时）
+（警告：全部交易数据大致包含19930个交易对，总体大小约为60GB，全部获取预计需要80小时,建议使用部分交易对 ex_filter.csv）
 
-You can select pair(s) of exchange(s) data you whish to get from all exchanges list, or directly use the list to get all pairs
-（Warning：All transactions pairs amount is about 19930, total size is about 60GB and estimate 60 hour to caupture）
+（Warning：All transactions pairs amount is about 19930, total size is about 60GB and estimate 60 hour to caupture, recommend to use partial pairs from ex_filter.csv）
 
-### 3. all_ex.csv：
+### 3. all_ex.csv / ex_filter.csv：
 
-这个数据集是通过 'get_crypto_exchanges' 获取到的一个样例数据，包含了cryptocompare中提供的所有可用交易所下的所有交易对。
+all_ex.csv 数据集是通过 'get_crypto_exchanges' 获取到的一个样例数据，包含了cryptocompare中提供的所有可用交易所下的所有交易对。
 
-This dataset is from the result of 'get_crypto_exchanges', and contains all available pairs in all exchanges provided by cryptocompare.
+all_ex.csv dataset is from the result of 'get_crypto_exchanges', and contains all available pairs in all exchanges provided by cryptocompare.
 
+ex_filter.csv 数据集是经过综合排名筛选出的部分热门交易所和交易对
+
+ex_filter.csv dataset is popular exchanges and pairs filtered by comprehensive ranking 
 
 ## APIKey
 
