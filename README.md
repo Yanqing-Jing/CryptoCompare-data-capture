@@ -76,6 +76,27 @@ You can get a free APIkey after register cryptocompare.com
 
 If you are not live in the Mainland China, there's no necessary to understand the above sentence :)
 
+## 常见问题 Common errors
+
+1. all_ex.csv or ex_filter.csv not found
+
+请把上述两个文件放置于C:/User/yourUserName目录下
+Place those two file at location C:/User/yourUserName
+
+2. 服务器访问被无限阻止 Connection infinite refused by the server.
+   a. 检查网络连接状态
+   b. 中国大陆境内需翻墙
+   c. 检查以下三个文件夹/文件是否被正常创建:
+    'D:/Data'
+    'D:/Data_history_time/data_history.txt'
+    'D:/Data_history'
+    
+    a. Check your internet connectivity
+    b. Need a VPN if you are staying in mainland china
+    c. Check if the following three folders / files are created correctly:
+     'D:/Data'
+     'D:/Data_history_time/data_history.txt'
+     'D:/Data_history'
 
 ## 其他 Other info
 
